@@ -1,0 +1,51 @@
+#balloon {
+  height:25vmin;
+  width:15vmin;
+  align:right;
+  margin-left:90%;
+  position:absolute;
+  display:inline-block;
+  box-sizing:border-box;
+  border:.3rem white solid;
+  border-radius:50% 50% 50% 50% / 40% 40% 60% 60%;
+  z-index:2;
+  box-shadow:0 5px 15px 0px rgba(0,0,0,0.6);
+  background:linear-gradient(to right, #bc4e9c, #f80759);
+  -webkit-animation:move 20s infinite;
+  animation:move 20s infinite;
+  -webkit-animation-direction:alternate;
+  animation-direction:alternate;
+  }
+
+  #balloon:before {
+  color:#eeeeee;
+  display:block;
+  text-align:center;
+  width:100%;
+  position:absolute;
+  bottom:-3vmin;
+  z-index:-1;
+  content:"▲";
+  font-size:2vmin;
+}
+
+#balloon:hover{
+  cursor:pointer;
+}
+
+.box {
+
+   height: 2rem;
+   width: 2rem;
+
+}
+
+.text {
+
+   text-align: center;
+   color: black;
+   display: block;
+   margin-top: 6rem;
+
+
+}
