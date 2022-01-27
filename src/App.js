@@ -6,6 +6,7 @@ import Header from "./components/header";
 import BeerTable from "./components/beer_table";
 import SearchBar from "./components/search_bar";
 import Timezone from "./components/timezone";
+import Time from "./components/time";
 //import Practice from './components/practice';
 import Test from "./components/test";
 import TestForm from "./components/test_form";
@@ -117,13 +118,14 @@ const App = () => {
       <p className="App-intro">First, is it 5:00?</p>
       <Timezone />
       <p>so, that means it's around...</p>
-
+      <Time />
+      <Tock />
       
       <p>Next, let's try a little test:</p>
       <Test />
       <TestForm />
       <p>Great Work!</p>
-      <Tock />
+      
         <SearchBar search={search} />
       <div className="movies">
         {loading && !errorMessage ? (

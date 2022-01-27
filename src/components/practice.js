@@ -5,9 +5,8 @@ import Drink from './drink';
 
 
 function FormattedDate(props) {
-  return new Date().toLocaleTimeString();
-}
-function Tuck(props) {
+ return new Date().toLocaleTimeString();
+}function Tuck(props) {
 
     if (FormattedDate) {
 
@@ -23,10 +22,10 @@ class Practice extends React.Component {
     super(props);
     this.state = {
 
-      date: new Date(),
-      isEmptyState: true
+     date: new Date(),
+     isEmptyState: true
 
-    };
+   };
   }
 
   triggerAddTripState = () => {

@@ -1,34 +1,35 @@
-//import React from 'react';
-//import "./children/balloon.css";
-//import Balloon from './children/balloon';
-//import Name from './children/name';
+/* import React from 'react';
 
-//const initialState = {
-  //inputValue: ""
-//};
+import Balloon from './children/balloon';
+import Name from './name';
 
-//const {Provider} = React.createContext(initialState);
+const initialState = {
+  inputValue: ""
+};
+
+const {Provider} = React.createContext(initialState);
 
 
 
-//class Drink extends React.Component {
-  //state = {
-      //inputValue: ""
-    //};
+class Drink extends React.Component {
+  state = {
+      inputValue: ""
+    };
 
-    //onUserInput = newVal => {
-      //this.setState({ inputValue: newVal });
-    //};
-    //return (
-      //<Provider value={{
-      //val: this.state.inputValue, onUserInput: this.onUserInput
-      //}}>
+    onUserInput = newVal => {
+      this.setState({ inputValue: newVal });
+    };
+    return (
+     /* <Provider {value}={{
+      val: state.inputValue, onUserInput: onUserInput
+      }}>  */
       //<Name />
       //<Balloon />
       //</Provider>
-    //)
-  //}
+    /* )
+  }
+ */
 
 
-
-//export default Drink
+//export default Drink */
+ 
